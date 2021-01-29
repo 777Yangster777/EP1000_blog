@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -94,4 +95,102 @@
 		</div>
 	</div>
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Embedded_prog</title>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>Embedded Prog</h1>
+			<link rel="stylesheet" type="text/css" href="style(Em_prog).css">
+		</div>
+		<div id="content">
+			<div id="nav">
+				<h2>Navigation</h2>
+				<ul>
+					<li><a href="Index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Website.html">Website</a></li>
+                    <li><a href="Development.html">Development</a></li>
+                    <li><a href="Project_development.html">Project Development</a></li>
+                    <li><a href="3D_printing.html">3D Printing</a></li>
+                    <li><a href="2D_cutting.html">2D Cutting</a></li>
+                    <li><a class="selected" href="Embedded_prog.html">Embedded Prog</a></li>
+                    <li><a href="Project.html">Project</a></li>
+                    <li><a href="fab_safty.html">Fab Lab Safety</a></li>
+                    <li><a href="tools.html">Fab Lab Tools</a></li>
+				</ul>
+			</div>
+			<div id="main">
+				<p class="has-line-data" data-line-start="0" data-line-end="1">Some basic programmes that are used in this web site in HTML will be explained here.</p>
+                <ol>
+                <li class="has-line-data" data-line-start="2" data-line-end="3">At the start of every programme this has to be written</li>
+                </ol>
+                <pre><code class="has-line-data" data-line-start="4" data-line-end="12">&lt;html&gt;
+                &lt;head&gt;
+                &lt;title&gt;.....&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+                </code></pre>
+                <p class="has-line-data" data-line-start="12" data-line-end="13">This is the start and framework of every web page before any designing is done. This has to be implemented.</p>
+                <p class="has-line-data" data-line-start="14" data-line-end="15">2.All about divs and what not</p>
+                <pre><code class="has-line-data" data-line-start="16" data-line-end="19">&lt;div&gt;
+                &lt;/div&gt;
+                </code></pre>
+                <p class="has-line-data" data-line-start="19" data-line-end="21">These are normally used to contain other code in the website. All code must be writen in between these in other to work.<br>
+                (b) identifying divs`</p>
+                <pre><code class="has-line-data" data-line-start="22" data-line-end="25">&lt;div id=&quot;main&quot;&gt;
+                &lt;/div&gt;
+                </code></pre>
+                <p class="has-line-data" data-line-start="25" data-line-end="26">This simply allows you to identify each of the divs and colour or style them seperatly.</p>
+                <p class="has-line-data" data-line-start="27" data-line-end="30">3.linking<br>
+                There are different types of linking methods for different purposes<br>
+                (a) Linking CSS files</p>
+                <pre><code class="has-line-data" data-line-start="31" data-line-end="33">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style.css&quot;&gt;
+                </code></pre>
+                <p class="has-line-data" data-line-start="33" data-line-end="35">so far This is the only kind of file refrence I have learned. CSS files are used to style a page so that it is not so blank.<br>
+                the rel=“stylesheet” means that the file is used to syle the page. type=“text/css” simply states the type and programme nature of the file. Lastly href=“style.css” means to state that the refrence file is to this location which is placed between the “”.</p>
+                <p class="has-line-data" data-line-start="36" data-line-end="37">(b) Linking with &lt;a&gt;</p>
+                <pre><code class="has-line-data" data-line-start="38" data-line-end="40">&lt;a href=&quot;https://www.Linkname.com&quot;&gt;This is a link &lt;/a&gt;
+                </code></pre>
+                <p class="has-line-data" data-line-start="40" data-line-end="41">The link’s destination is specified in the href attribute. Attributes are used to provide additional information about HTML elements.</p>
+                <p class="has-line-data" data-line-start="42" data-line-end="43">4.images</p>
+                <pre><code class="has-line-data" data-line-start="44" data-line-end="46">&lt;img scr=&quot;image.jpeg&quot; style=&quot; width:150px;height:300px&quot; &gt;
+                </code></pre>
+                <p class="has-line-data" data-line-start="46" data-line-end="47">Images are always placed in this format. the scr=&quot;&quot; is where the file location of the image will be. the style=&quot;&quot; refers to the sizing of the image when displayed on the web page.</p>
+                <ol start="5">
+                <li class="has-line-data" data-line-start="48" data-line-end="49">Conecting to other pages</li>
+                </ol>
+                <pre><code class="has-line-data" data-line-start="50" data-line-end="61">    &lt;ul&gt;
+                &lt;li&gt;&lt;a href=&quot;Index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;About.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;Website.html&quot;&gt;Website&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a class=&quot;selected&quot; href=&quot;Development.html&quot;&gt;Development&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;3D_printing.html&quot;&gt;3D Printing&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;2D_cutting.html&quot;&gt;2D Cutting&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;Embedded_prog.html&quot;&gt;Embedded Prog&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;Project.html&quot;&gt;Project&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+               </code></pre>
+               <p class="has-line-data" data-line-start="61" data-line-end="62">When linking to other web pages the ul tag must be used within a div.</p>
+               <pre><code class="has-line-data" data-line-start="63" data-line-end="66">&lt;li&gt;
+               &lt;/li&gt;
+               </code></pre>
+               <p class="has-line-data" data-line-start="66" data-line-end="67">This is the link tag for pages when your web site has more then one page.</p>
+               <pre><code class="has-line-data" data-line-start="68" data-line-end="70">&lt;a href=&quot;link.html&quot;&gt;link&lt;/a&gt;
+               </code></pre>
+               <p class="has-line-data" data-line-start="70" data-line-end="71">this line is used to define and help the computer find the file that you want to open when you click on the link.</p>
+			</div>
+		</div>
+		<div id="footer">
+			Copyright &copy; 2020 
+		</div>
+	</div>
+</body>
+>>>>>>> d9db210fbc9ce1a77ab71deee5f67e112f88fa04
 </html>
